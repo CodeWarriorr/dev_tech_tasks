@@ -73,7 +73,7 @@ async function main() {
   );
 
   for (let i = 0; i < latestBlock; i += blockNumberIncrement) {
-    console.log('i', i);
+    console.log('Parsing blocks from', i, ' to:', i + blockNumberIncrement);
     transactionHistory.push(
       ...(await getPartialLogs(paddedAddresses, i, i + blockNumberIncrement))
     );

@@ -43,13 +43,13 @@ Then We have to deal with limited topic filters that make retriving both from an
 With output to console
 
 ```shell
-npx hardhat run ./scripts/erc20_transfers.ts
+npx hardhat run ./scripts/erc20_transfers.ts --network mumbai 
 ```
 
 With output to file
 
 ```shell
-npx hardhat run ./scripts/erc20_transfers.ts >> output.txt
+npx hardhat run ./scripts/erc20_transfers.ts --network mumbai >> output.txt
 ```
 
 ## Improvements
