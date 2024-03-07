@@ -84,5 +84,6 @@ Some of the improvements that could be made are:
  - Keep track of staked tokens data for analytics
  - Diamond upgradeability could be managed to support updates and possible initialization of new contract versions through some version check
  - More sophisticated voting system, for example proportional to the amount of staked tokens
+ - Some minimal limits for the amount of staked tokens could be added
 
 
